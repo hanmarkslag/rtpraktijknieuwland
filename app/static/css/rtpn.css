@@ -281,7 +281,8 @@ p {
 }
 
 .contact-top {
-  margin-top: 0px;
+    margin-bottom: 12px;
+    margin-top: 0px;
 }
 
 .contact-middle {
