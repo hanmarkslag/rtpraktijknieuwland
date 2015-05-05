@@ -1,0 +1,330 @@
+/* Copyright RT Praktijk Nieuwland 2007-2013 */
+
+
+/* *** Container *** */
+
+body { 
+	background-color: white;
+	font-family:      Verdana, Helvetica, Arial, sans-serif;
+	margin:           0% 0% 0% 0%;
+	width:            100%;
+}
+
+.container {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* *** Top (navigation) *** */
+
+.top {
+	width: 900px;
+}
+
+.logotop {
+	float: left;
+	margin: 10px 0px 3px 0px;
+}
+
+.toplijnleft hr {
+	float: left;
+	width: 60px;
+	height: 2px;
+	border: none;
+	background-color: green;
+	margin: 108px 15px 0px 5px;
+}
+
+.toplijnright hr {
+	float: right;
+	width: 500px;
+	height: 2px;
+	border: none;
+	background-color: green;
+	margin: 5px 5px 0px 5px;
+}
+
+.toplijn {
+	clear: both;
+}
+.navtop {
+	float: right;
+	margin: 85px 10px 0px 0px;
+}
+
+.navtop a {
+	text-decoration: none;
+	font-size: 11px;
+	font-family: Tahoma;
+	color: black;
+}
+
+.navtop a:hover {
+	color: orange;
+	font-weight: bold;
+}
+
+
+/* *** Left navigation *** */
+
+.leftnav {
+	float: left;
+	height: 570px;
+	width: 160px;
+	margin: 20px 0px 0px 0px;
+}
+.leftnav_3_sublinks {
+	float: left;
+	height: 570px;
+	width: 160px;
+	margin: 20px 0px 0px 0px;
+}
+
+.leftnavinner {
+}
+
+.leftnavinner ul {
+	list-style: none;
+	padding: 10px 0px 0px 0px;
+}
+
+.leftnavinner a {
+	text-decoration: none;
+	font-size: 12px;
+	font-family: Tahoma;
+}
+
+.leftnavinner a:hover {
+  color: orange;
+  font-weight: bold;
+}
+
+.actief {
+	text-align: right;
+	margin-top: 6px;
+}
+
+.actievelink {
+	font-weight: bold;
+	color: green;
+	padding-right: 20px;
+}
+
+.passief {
+	text-align: right;
+	margin-top: 6px;
+}
+
+.passievelink {
+	color: black;
+	padding-right: 20px;
+}
+
+.sub {
+	text-align: right;
+	margin-top: 0px;
+}
+
+.sublink {
+	color: green;
+	padding-right: 20px;
+}
+
+.link {
+	margin-top: 0px;
+}
+
+.link a {
+	font-weight: normal;
+	font-size: small;
+	color: green;
+}
+
+.linkomschrijving {
+	margin-bottom: 0px;
+}
+
+.tarief {
+	font-size: 75%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.tariefonderdeel {
+	margin-bottom: 0px;
+}
+
+
+/* *** Left contact information *** */
+
+.contact {
+	padding-top: 110px;
+}
+.contact_1s {
+	padding-top: 92px;
+}
+.contact_2s {
+	padding-top: 74px;
+}
+.contact_3s {
+	padding-top: 56px;
+}
+
+.contact p {
+	text-align: right;
+	font-family: Verdana;
+	font-size: 10px;
+	padding: 0px 20px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+.contact_1s p {
+	text-align: right;
+	font-family: Verdana;
+	font-size: 10px;
+	padding: 0px 20px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+.contact_2s p {
+	text-align: right;
+	font-family: Verdana;
+	font-size: 10px;
+	padding: 0px 20px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+.contact_3s p {
+	text-align: right;
+	font-family: Verdana;
+	font-size: 10px;
+	padding: 0px 20px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+/* *** Content area *** */
+
+.whitespace {
+	float: left;
+	background-color: white;
+	height: 10px;
+	width: 700px;
+	padding: 0px 0px 0px 0px;
+	margin: 39px 0px 0px 0px;
+	
+}
+
+.content {
+	float: left;
+	background-color: white;
+	height: 540px;
+	width: 675px;
+	border-top: 2px solid green;
+	border-right: none;
+	border-bottom: none;
+	border-left: 2px solid green;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 10px 0px 10px;
+}
+
+h1 {
+	font-size: 14px;
+	font-family: Tahoma;
+	margin: 10px 10px 0px 10px;
+}
+
+h4 {
+	font-family: Tahoma;
+	margin: 10px 10px 0px 10px;
+}
+
+h5 {
+	font-family: Tahoma;
+	margin: 10px 10px 0px 10px;
+}
+
+p {
+	font-family: Tahoma;
+	font-size: small;
+	text-align: left;
+	line-height: 150%;
+	margin: 5px 10px 20px 10px;
+}
+
+.fotoleft {
+	margin: 0px 15px 0px 10px;
+	border: 2px solid gray;
+}
+
+.fotoright {
+	margin: 0px 15px 0px 10px;
+	border: 2px solid gray;
+	float: right;
+}
+.foto {
+	margin-top: 10px;
+}
+
+.rtervaring li {
+	font-size: small;
+	font-family: Tahoma;
+	margin-bottom: 5px;
+}
+
+.bottom-p {
+	width: 620px;
+}
+
+.internal_p_link {
+	font-weight: normal;
+	font-size: small;
+	color: green;
+}
+
+.contact-top {
+  margin-top: 0px;
+}
+
+.contact-middle {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.contact-bottom {
+  color: green;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+
+/* *** Right navigation *** */
+
+.rightnav {
+	float: left;
+	height: 450px;
+	border-left: 2px solid green;
+}
+
+
+/* *** Footer *** */
+
+.footer {
+	clear: both;
+}
+
+.footerlijn hr {
+	float: left;
+	width: 650px;
+	height: 2px;
+	border: none;
+	background-color: green;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 160px;
+}
+
+.boom {
+	float: left;
+	width: 75px;
+	height: 75px;
+	padding: 0px 0px 0px 0px;
+	margin: -36px 0px 0px 0px;
+}
+
