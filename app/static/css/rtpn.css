@@ -215,8 +215,7 @@ body {
 
 .content {
 	float: left;
-	background-color: white;
-	height: 540px;
+	height: 570px;
 	width: 675px;
 	border-top: 2px solid green;
 	border-right: none;
@@ -300,7 +299,7 @@ p {
 
 .rightnav {
 	float: left;
-	height: 450px;
+	height: 490px;
 	border-left: 2px solid green;
 }
 
